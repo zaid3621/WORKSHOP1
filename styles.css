@@ -1,0 +1,61 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+header img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 50%; /* Makes the image round */
+    margin-right: 10px; /* Adds some spacing between the image and the text */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #3498db, #8e44ad); /* Gradient background */
+    color: #3b0c49; /* White text color */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black header background */
+    color: #030000; /* White text color */
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* White link color */
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for sections */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+/* Add more styling as needed */
